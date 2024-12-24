@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik";
+  color: #343A40;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url(/assets/fonts/Rubik/Rubik-VariableFont_wght.ttf);
+}
+
+.header-text-box {
+  display: flex;
+  gap: 10%;
+  flex-direction: row;
+}
+
+.programming-definition {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.img-pro {
+  width: 200%;
+}
+
+.programming-fields {
+  text-align: center;
+  margin-top: 45px;
+}
+
+.fields-view {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  gap: 15px;
+  margin-bottom: 20px;
+  line-height: 1.7;
+}
+
+.web {
+  margin-top: 15%;
+  width: 10%;
+  margin-bottom: 5%;
+  stroke: darkblue;
+  /* stroke: yellow; */
+}
+
+.server {
+  margin-top: 9%;
+  margin-bottom: 5%;
+  width: 10%;
+  stroke: darkblue;
+}
+
+.fullstack {
+  margin-top: 8%;
+  margin-bottom: 5%;
+  width: 10%;
+  stroke: darkblue;
+}
+
+.learn-more {
+  padding: 15px;
+  border-radius: 50px;
+  margin-top: 10px;
+  background: #37b24d;
+  border: none;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.learn-more:hover {
+  background-color: #2b8a3e;
+}
+.programming-quotes {
+  display: flex;
+  padding: 20px;
+  background-color: #37b24d;
+  gap: 10px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+  /* box-shadow: 0 0 0.5px 10px #343A40; */
+}
+
+.programming-quotes img {
+  border-radius: 15px;
+}
+.word {
+  color: #fff;
+  margin-bottom: 10px;
+  font
+}
+
+.andrew-quote {
+  color: #fff;
+  line-height: 1.7;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.Hunt {
+  color: #fff;
+}
+
+.sign-in {
+  margin-top: 20px;
+}
+
+.cta {
+  padding: 15px;
+  margin-top: 15px;
+  background-color: #f59f00;
+}
+
+.Try {
+  margin-bottom: 15px;
+  font-size: 35px;
+}
+
+.submit {
+  /* padding: 15px; */
+  border-radius: 100px;
+}
+
+.web-language {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  /* padding: ; */
+}
+
+.web-language input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.sign-in-form input, .sign-in-form select {
+  width: 50%;
+  border-radius: 50px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.sign-in-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 10px;
+  /* border-radius: 15px; */
+}
+
+.submit {
+    width: 50%;
+  border-radius: 50px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  /* text-align: center; */
+}
+
+.submit:hover {
+background-color: black;
+color: #fff;
+}
+
+.cta {
+  border-radius: 15px;
+}
+
+.footer {
+  margin-top: 30px;
+  border-top: 5px solid #2b8a3e;
+}
